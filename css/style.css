@@ -1,0 +1,29 @@
+body {
+  background: #000000;
+  color: #fff;
+  height: 100%;
+  min-height: 100%;
+}
+
+.mensagem {
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.me p,
+.me h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
